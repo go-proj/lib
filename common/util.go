@@ -19,6 +19,7 @@ type variable struct {
 	indent int64
 }
 
+// refer: https://github.com/liudng/godump/blob/master/dump.go
 func (v *variable) dump(val reflect.Value, name string) {
 	v.indent++
 
