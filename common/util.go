@@ -72,7 +72,7 @@ func (v *variable) printValue(name string, vv interface{}) {
 func (v *variable) printIndent() {
 	var i int64
 	for i = 0; i < v.indent; i++ {
-		v.Out = fmt.Sprintf("%s  ", v.Out)
+		v.Out = fmt.Sprintf("%s    ", v.Out)
 	}
 }
 
