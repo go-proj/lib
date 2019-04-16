@@ -1,2 +1,2 @@
 # lib
-go util code
+go util codes collection.
